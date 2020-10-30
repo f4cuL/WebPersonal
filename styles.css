@@ -18,7 +18,7 @@
 }
 *
 {
-    font-family: 'Fredoka One', cursive;
+    font-family: "Calibri";
 }
  .col
 {
@@ -68,4 +68,6 @@ header
 .oculto
 {
     display: none;
+
 }
+
