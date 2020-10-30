@@ -54,8 +54,17 @@ header
     75%{background-color: #0077b6;}
     100%{background-color: #03045e;}
 }
+.icono-edu
+{
+    width: 90px;
+    height: 90px;
+}
 
-
+.educacion
+{
+    display: flex;
+    flex-direction: column;
+}
 .oculto
 {
     display: none;
