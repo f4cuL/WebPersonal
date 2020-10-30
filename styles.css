@@ -5,27 +5,58 @@
         margin: 10px;
 
  }
+
  .icon
  {
     margin: 0;
     padding: 5px;
- }
+
+}
 .iconos-tecnologias
 {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+}
+*
+{
+    font-family: 'Fredoka One', cursive;
 }
  .col
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 footer
 {
-    border: 1px solid darkblue;
+    position: fixed;
+    display: flex; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* border: 1px solid #006494; */
+    animation-name: fondo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 header
 {
-    border: 1px solid blue;  
+    width: 100%;
+    /* border: 1px solid blue;   */
+    animation-name: fondo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes fondo
+{
+    0%{background-color: #03045e;}
+    50%{background-color: #023e8a;}
+    75%{background-color: #0077b6;}
+    100%{background-color: #03045e;}
+}
+
+.fondo
+{
+    background-color: #8d99ae;
 }
