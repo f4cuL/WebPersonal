@@ -10,7 +10,7 @@ btn.addEventListener('click', function () {
     }
     else
     {   about.classList.replace("animate__fadeIn","animate__fadeOut")
-        setTimeout(function(){about.classList.add('oculto');},500)
+        setTimeout(function(){about.classList.add('oculto');},700)
     }
     
   });
