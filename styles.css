@@ -89,3 +89,8 @@ header
 
 }
 
+body
+{
+    background-image: url(wallpaper.jpg);
+    height: 100%;
+}

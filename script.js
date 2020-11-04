@@ -63,7 +63,3 @@ btn4.addEventListener('click', function () {
     
   });
   
-let portal = document.querySelector(".portal");
-portal.addEventListener("click",function(){
-  portal.classList.add("animate__wobble");
-})
