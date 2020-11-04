@@ -21,7 +21,7 @@
 </head>
 
 <body>
-<header class="d-flex justify-content-center">
+<header class="d-flex justify-content-center p-3">
   <!-- HEADER FIXED CON LOGO Y NAVBAR -->
   <img src="my-icons-collection/png/portal.png" alt="portal_logo" width="100px" height="100px">
   <div>
@@ -29,7 +29,7 @@
 </header>
 
 
-<div class="container">
+<div class="container d-flex flex-column">
     <div class="col shadow-sm p-3 mb-5 bg-white rounded">
       <button type="button" class="btn btn-primary btn-lg btn-block" id="boton">Sobre mi</button>
       <div class="about-me oculto animate__animated animate__fadeIn">
@@ -72,10 +72,6 @@
 
       </div>
 
-  </div>
-</div>
-
-<div class="container">
     <div class="col shadow-sm p-3 mb-5 bg-white rounded">
       <button type="button" class="btn btn-primary btn-lg btn-block" id="boton3">Educación</button>
       <div class="educacion oculto animate__animated animate__zoomInLeft">
@@ -105,21 +101,21 @@
       <button type="button" class="btn btn-primary btn-lg btn-block" id="boton4">Cursos</button>
       <div class="cursos oculto animate__animated animate__bounceInDown">
         <img src="my-icons-collection/png/codoacodo.png" alt="">
+        <div>
         Curso codo a codo
         Fullstack Java
-
+      </div>
       </div>
 
 
     </div>
   
 </div>
-
-
-<footer class="d-flex  text-white flex-column">
-  Lopez Facundo, 2020.
-</footer>
-
+<div class="min-height-100 grid">
+  <footer class="d-flex  text-white justify-content-center p-3">
+    Lopez Facundo, 2020 ©.
+  </footer>
+</div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
