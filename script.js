@@ -10,7 +10,7 @@ btn.addEventListener('click', function () {
     }
     else
     {   about.classList.replace("animate__fadeIn","animate__fadeOut")
-        setTimeout(function(){about.classList.add('oculto');},1000)
+        setTimeout(function(){about.classList.add('oculto');},500)
     }
     
   });
@@ -26,7 +26,7 @@ btn2.addEventListener('click', function () {
     else
     {
       media.classList.replace("animate__bounceInRight","animate__backOutRight")
-        setTimeout(function(){media.classList.add('oculto');},1000)
+        setTimeout(function(){media.classList.add('oculto');},500)
     }
     
   });
@@ -42,7 +42,7 @@ btn3.addEventListener('click', function () {
     else
     {
       edu.classList.replace("animate__zoomInLeft","animate__zoomOutLeft")
-      setTimeout(function(){edu.classList.add('oculto');},1000)
+      setTimeout(function(){edu.classList.add('oculto');},800)
     }
     
   });
@@ -58,7 +58,7 @@ btn4.addEventListener('click', function () {
     else
     {
       cursos.classList.replace("animate__bounceInDown","animate__bounceOutDown")
-      setTimeout(function(){cursos.classList.add('oculto');},1000)
+      setTimeout(function(){cursos.classList.add('oculto');},800)
     }
     
   });
