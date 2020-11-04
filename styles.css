@@ -71,10 +71,10 @@ footer
 header
 {
     width: 100%;
-    /* border: 1px solid blue;   */
     animation-name: fondo;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    margin-bottom: 10px; 
     
 }
 @keyframes fondo
@@ -93,7 +93,7 @@ header
 .educacion
 {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 .oculto
 {
@@ -103,6 +103,6 @@ header
 
 body
 {
-    background-image: url(wallpaper.jpg);
+    background-image: url(fondo.jpg);
     height: 100%;
 }
