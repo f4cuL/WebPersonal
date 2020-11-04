@@ -21,11 +21,11 @@ btn2.addEventListener('click', function () {
   
     if (media.classList.contains('oculto')) {
       media.classList.remove('oculto')
-      media.classList.replace("animate__backOutRight","animate__bounceInRight")
+      media.classList.replace("animate__fadeOutUpBig","animate__fadeInTopLeft")
     }
     else
     {
-      media.classList.replace("animate__bounceInRight","animate__backOutRight")
+      media.classList.replace("animate__fadeInTopLeft","animate__fadeOutUpBig")
         setTimeout(function(){media.classList.add('oculto');},500)
     }
     
